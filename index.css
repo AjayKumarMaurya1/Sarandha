@@ -1,0 +1,166 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.section1 {
+  width: 80vw;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding-top: 12%;
+  gap: 32px;
+}
+.section1 img {
+  margin: 0 auto;
+  width: 150px;
+}
+.section1 p {
+  margin: 0;
+  text-align: center;
+  font-size: larger;
+}
+.section1 .conbtn {
+  display: flex;
+  width: 100wv;
+  flex-direction: column;
+  gap: 12px;
+}
+.section1 .conbtn a {
+  margin: 0 32px;
+  text-decoration: none;
+  font-size: 25px;
+  display: flex;
+  gap: 16px;
+  color: black;
+  background: #f1f5f9;
+}
+.section1 .conbtn a button {
+  width: 32px;
+  border: none;
+  background: #f1f5f9;
+}
+
+.wapper {
+  width: 100vw;
+}
+.wapper .section2 {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 27px;
+  background: #f1f5f9;
+  margin: 40px auto;
+}
+.wapper .section2 .heading {
+  width: 90vw;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.wapper .section2 .heading h1 {
+  font-size: 32px;
+  margin: 0;
+}
+.wapper .section2 .heading h2 {
+  margin: 0;
+  font-size: 18px;
+}
+.wapper .section2 .card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 22px;
+}
+.wapper .section2 .card .card1 {
+  width: 70%;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.wapper .section2 .card .card1 img {
+  width: 100%;
+}
+.wapper .section2 .card .card1 h3 {
+  margin: 0;
+  font-size: 27px;
+  background-color: white;
+}
+
+@media (min-width: 600px) {
+  .section1 {
+    padding-top: 13%;
+    gap: 48px;
+    flex-wrap: wrap;
+  }
+  .section1 img {
+    width: 180px;
+  }
+  .section1 p {
+    width: 67%;
+    margin: 0 auto;
+    font-size: 22px;
+  }
+  .section1 .conbtn {
+    flex-direction: row;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+  .section1 .mobile:hover button {
+    background: rgba(0, 0, 255, 0.151);
+    transition: 0.5s;
+  }
+  .section1 .mobile:hover {
+    background: rgba(0, 0, 255, 0.411);
+    border-radius: 10px;
+    transition: 0.5s;
+  }
+  .section1 .WhatsApp:hover button {
+    background: rgba(0, 128, 0, 0.178);
+    transition: 0.5s;
+  }
+  .section1 .WhatsApp:hover {
+    background: rgba(0, 128, 0, 0.404);
+    border-radius: 10px;
+    transition: 0.5s;
+  }
+  .section1 .Instagram:hover button {
+    background: rgba(236, 112, 132, 0.582);
+    transition: 0.5s;
+  }
+  .section1 .Instagram:hover {
+    background: rgba(238, 70, 98, 0.623);
+    border-radius: 10px;
+    transition: 0.5s;
+  }
+  .wapper {
+    width: 100vw;
+    margin: 0;
+  }
+  .wapper .section2 {
+    flex-direction: column;
+    margin: 190px auto;
+    padding: 0 20px;
+  }
+  .wapper .section2 .card {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    gap: 32px;
+    justify-content: space-between;
+  }
+  .wapper .section2 .card .card1 {
+    gap: 22px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    width: 210px;
+  }
+  .wapper .section2 .card .card1 img {
+    width: 200px;
+  }
+}/*# sourceMappingURL=index.css.map */
